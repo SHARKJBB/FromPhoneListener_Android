@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sharkj.fromphonelistener.FPLMainActivity">
+
+    <!--文本框-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入监控者手机号码："
+        android:textColor="#1a2954"/>
+    <!--对话框-->
+    <EditText
+        android:id="@+id/ET_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--按钮-->
+    <Button
+        android:id="@+id/BIN_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启来电监控功能" />
+
+
+</LinearLayout><!--书写界面文件步骤：1.先定义整体布局，再在布局中添加所需的组件；2.给每个布局或者组件添加相应属性并且赋值--><!--界面文件三要素：1.组件名（黄色）；2.属性名（紫色+白色）；3.属性值（绿色）；--><!--宽度高度属性的值：1.match_parent;2.fill_parent;3.wrap_content-->
